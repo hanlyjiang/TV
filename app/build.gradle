@@ -7,7 +7,8 @@ android {
     flavorDimensions "mode", "api", "abi"
 
     defaultConfig {
-        applicationId "com.fongmi.android.tv"
+//        applicationId "com.fongmi.android.tv"
+        applicationId "com.hanlyjiang.tv"
         minSdk 21
         targetSdk 28
         javaCompileOptions {
