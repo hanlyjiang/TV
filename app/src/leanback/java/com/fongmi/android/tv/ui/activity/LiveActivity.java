@@ -430,8 +430,7 @@ public class LiveActivity extends BaseActivity implements GroupPresenter.OnClick
         mChannelAdapter.setItems(item.getChannel(), null);
         mBinding.channel.setSelectedPosition(Math.max(item.getPosition(), 0));
         if (!item.isKeep() || ++count < 5 || mHides.isEmpty()) return;
-        if (Biometric.enable()) Biometric.show(this);
-        else PassDialog.create().show(this);
+        PassDialog.create().show(this);
         App.removeCallbacks(mR0);
         resetPass();
     }
