@@ -1,0 +1,4 @@
+[submodule "media"]
+	path = media
+	url = git@github.com:hanlyjiang/media.git
+	branch = release
